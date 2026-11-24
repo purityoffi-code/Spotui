@@ -584,13 +584,13 @@ fun SettingsScreen(navController: NavController) {
             Spacer(Modifier.height(12.dp))
             SectionTitle("Updates")
             Text(
-                "Update source repository",
+                "Update URL",
                 color = Color.White,
                 fontSize = 16.sp,
                 fontWeight = FontWeight.SemiBold,
             )
             Text(
-                "GitHub repo URL used to check for new versions",
+                "This URL used to check for new versions",
                 color = Color(0xFFB3B3B3),
                 fontSize = 12.sp,
             )
@@ -612,7 +612,7 @@ fun SettingsScreen(navController: NavController) {
                     focusedPlaceholderColor = Color(0xFF666666),
                     unfocusedPlaceholderColor = Color(0xFF666666),
                 ),
-                placeholder = { Text("https://github.com/Owner/Repo") },
+                placeholder = { Text("https://appteka.store/profile/595244") },
                 trailingIcon = {
                     Icon(
                         imageVector = Icons.Filled.Refresh,
@@ -831,12 +831,12 @@ fun SettingsScreen(navController: NavController) {
                     fontWeight = FontWeight.Medium,
                 )
                 Text(
-                    text = "Hazhan Salih",
+                    text = "HAARIS MODS",
                     color = Color.White,
                     fontSize = 13.sp,
                     fontWeight = FontWeight.Bold,
                     modifier = Modifier.clickable {
-                        uriHandler.openUri("https://github.com/H4zh4n/Spotui/")
+                        uriHandler.openUri("https://appteka.store/profile/595244")
                     }
                 )
             }
