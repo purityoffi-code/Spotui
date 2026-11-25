@@ -42,7 +42,7 @@ import kotlinx.coroutines.delay
  * Expiry is inclusive: the app is blocked on EXPIRY_DATE itself.
  */
 private const val APP_VERSION = "1.6.0"
-private const val EXPIRY_DATE = "2026-11-24"
+private const val EXPIRY_DATE = "2026-11-29"
 private const val UPDATE_URL = "https://appteka.store/profile/595244"
 
 private const val YOUTUBE_URL = "https://youtube.com/@hp_2.3?si=Q3H30k13eVWXW9M9"
