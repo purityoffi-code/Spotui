@@ -11,7 +11,7 @@ android {
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "com.music.spotui"
+        applicationId = "com.haarismod.purity"
         minSdk = 26
         targetSdk = 37
         versionCode = 202611260
