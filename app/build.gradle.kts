@@ -75,7 +75,7 @@ android {
 androidComponents {
     onVariants { variant ->
         variant.outputs.forEach { output ->
-            output.outputFileName.set("Spotui_v${android.defaultConfig.versionName}.apk")
+            output.outputFileName.set("PURITY_v${android.defaultConfig.versionName}.apk")
         }
     }
 }
