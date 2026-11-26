@@ -41,8 +41,8 @@ import kotlinx.coroutines.delay
  * Change these values when preparing a new release.
  * Expiry is inclusive: the app is blocked on EXPIRY_DATE itself.
  */
-private const val APP_VERSION = "1.6.0"
-private const val EXPIRY_DATE = "2026-11-29"
+private const val APP_VERSION = "1.6.3"
+private const val EXPIRY_DATE = "2027-12-10"
 private const val UPDATE_URL = "https://appteka.store/profile/595244"
 
 private const val YOUTUBE_URL = "https://youtube.com/@hp_2.3?si=Q3H30k13eVWXW9M9"
